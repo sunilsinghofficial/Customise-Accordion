@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.accordion-item {
+    border: 2px solid black !important;
+}
+
+.accordion-button {
+    background-color: cadetblue !important;
+    box-shadow: none !important;
+
+}
+
+.border_bottom {
+    border-top: 0px !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: yellow !important;
+    color: red !important;
+    box-shadow: none !important;
+}
+
+.bg_yellow {
+    background-color: yellow;
+}
+
+.accordion-button::after {
+    background-image: url('../images/ant-design_plus-outlined.svg') !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../images/ant-design_minus-outlined.svg') !important;
+}
